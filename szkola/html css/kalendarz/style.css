@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container {
+    width: auto;
+    height: 100vh;
+    min-height: 600px;
+    background: linear-gradient(180deg, purple, darkblue);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#callendar {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    min-height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    background: linear-gradient(180deg, blueviolet, blue);
+}
+
+#image {
+    content: "";
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(flowers.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 95%;
+    height: 40%;
+}
+
+#year {
+    position: absolute;
+    right: 10px;
+    font-family: 'Courgette', cursive;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+#month {
+    position: relative;
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    text-align: center;
+    top: 30px;
+    color: yellow;
+    text-shadow: 0px 0px 3px red;
+}
+
+.sunday {
+    color: crimson;
+}
+
+#days {
+    text-align: center;
+}
+
+table {
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    width: 90%;
+    font-weight: 1000;
+    text-align: center;
+}
+
+td {
+    height: 35px;
+    text-align: center;
+}

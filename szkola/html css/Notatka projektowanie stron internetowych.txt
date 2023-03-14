@@ -1,0 +1,96 @@
+23.01.2023
+
+Tworzenie i publikowanie aplikacji internetowych to jedna z najpopularniejszych usłyg sieciowych.
+Technologie webowe:
+-front-end (to co widzimy na stronie)
+-back-end (skrypty dzialajace na stronie)
+-database
+-version control system
+-UI and UX
+
+Jak działa internetowa strona?
+-HTTP: protokół sieciowy do pobierania dokumentów HTML
+-DNS
+
+-Hosting lub web-hosting: Hosting to usługa online, dzięki której zawartość twojej witryny jest dostępna w Internecie.
+-Hosting wspóldzielony: wielu użytkowników korzysta z tych samych zasobów serwera
+-VPS: twoja witryna współdzieli fizyczny serwer z innymi użytkownikami, ale host WWW tworzy wirtualną pamięć dla każdego użytkownika 
+-Cloud: To rozwiązanie hostingowe wykorzystujące kilka serwerów wirtualnych do hostowania witryn.
+
+Przeglądarka internetowa - program, który umożliwia użytkownikowi dostęp do sieci, musi byc w stanie:
+-pobierać dokument z adresu URL przez HTTP lub czasami przez FTP, Gopher lub NNTP
+-pokazać pobrany dokument użytkownikowi
+-obsługiwać wtyczki i oddzielne aplikacje do wyświetlania innych typów dokumentów
+-interpretuje i uruchamia język JavaScript
+-Microsoft Edge, Opera, Mozilla Firefox, Google Chrome, Safari, Brave, Internet Explorer, TOR 
+
+Front-end:
+-HTML (HyperText Markup Language): język znaczników dokumentów, który oprócz sformatowanego tekstu, obrazów, filmów obsługuje hiperłącza
+-HTML rozpoczął się jako prosty język znaczników tekstowych z hiperłączami zawierającymi adresy URL. Później pojawiły się obrazy i formularze.
+-Istnieje kilka wersji HTMl, najnowsza z nich to HTML5, następca XHTML.
+
+-CSS (Cascading Style Sheets): zbiór reguł, który nadaje stronie internetowej zamierzany wygląd.
+-Zapewnia dodatkową funkcję HTML. Zwykle jest używany z HTML do zmiany stylu stron internetowych. i interfejsu użytkownika.
+-Za pomocą CSS możesz zmienić wygląd już istniejącej strony HTML.
+-Definicje plików CSS są zapisywane najczęściej w zewnętrznych plikach CSS, dzięki czemu można zmienić całą witrynę, zamieniając jeden plik.
+
+-Frameworki CSS
+-Tailwind CSS
+-Bootstrap
+-Materialize CSS
+-Material UI
+-Foundation CSS
+
+-JavaScript: język programowania aplikacji internetowych, stron, sieci, wykorzystuje drzewo DOM (dokument object model) i API (application program interface).
+-98% stron internetowych wykorzystuje JavaScript
+-Biblioteki i frameworki JavaScriptowe: jQuery, Angular, React, Vue.JavaScript
+-React: 
+-Redux: zarządzanie zarządzanie stanem aplikacji. Stany są modyfikowane przez akcje (undo i redo)
+-MobX: rozbudowana alternatywa dla Redux. Biblioteka JavaScript
+
+Back-end:
+-Kod 
+-Języki programowania (PHP, C#, Rust, Go, Ruby, Java, Python, JavaScript)
+-Frameworki: ogólne komponenty lub funkcje, które są inplementowane w celu poprawy wydajności programowania. Zawiera bibliotekę narzędzi i modułów budujących 
+architekturę serwisu. (Express. Flask, Django, Ruby on Rails).
+
+Databases:
+-NoSQL (nierelacyjne bazy danych MongoDB)
+-SQL (relacyjne bazy danych)
+-Oracle
+-MS SQL Server
+-PostGreSQL
+-MySQL/MariaDB
+-SQLite
+
+Serwery WWW:
+-Apache
+-nginx
+-Microsoft IIS 
+
+System Kontroli Wersji pomaga kontrolować tworzenie aplikacji za pomocą wersjonowania, branchów i commitów. Lista systemów kontroli wersji to:
+-GitHub
+-GitLab
+-BitBucket
+
+UI/UX
+-User Interface
+Zajmuje się interakcją użytkowników z produktem/usługą. Po kliknięciu przycisku strona powinna odpowiedzieć.
+
+-User Experience
+Uwzględnia się oświadczenie użytkownika z daną witryną/usługą internetową, np. za pomocą testów A/B.
+Do obowiązków projektantów UX należy badanie, projektowanie wprowadzanie innowacji i prototypowanie w celu lepszego doświadczenia użytkownika.
+
+Web security
+-HTTPS używa protokołu szyfrowania do szyfrowania komunikacji. Protokół ten nosi nazwę Transport Layer Security (TLS), chociaż wcześniej był znany jako 
+Secure Sockets Layer (SSL).
+
+Klucz prywatny - ten klucz jest kontrolowany przez właściciela strony internetowej i jest przechowywany, jak czytelnik mógł spekulować, jako prywatny. Ten klucz znajduje się na 
+serwerze WWW i służy do odszyfrowywania informacji zaszyfrowanych kluczem publicnym.
+
+Klucz publiczny - ten klucz jest dostępny dla każdego, kto chce wchodzić w interakcje z serwerem w sposób bezpieczny. Informacje zaszyfrowane kluczem publicznym można 
+odszyfrować tylko kluczem prywatnym.
+
+Web security:
+CORS (Cross-Origin Resource Sharing) to system polegający na przesyłaniu nagłówków HTTP, który określa, czy przeglądarki blokują dostęp kodu JavaScript do odpowiedzi na 
+żądania cross-origin.

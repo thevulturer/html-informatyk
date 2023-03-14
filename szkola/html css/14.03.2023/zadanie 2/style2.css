@@ -1,0 +1,35 @@
+body {
+    background-color: darkslategray;
+}
+
+#orange {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#lightorange {
+    background-color: sandybrown;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 702px;
+    height: 202px;
+}
+
+table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    top: 1px;
+}
+table td {
+    background-color: white;
+}

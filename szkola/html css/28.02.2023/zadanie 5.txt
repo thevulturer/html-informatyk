@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kolor tekstu i usuwanie punktorów listy</title>
+        <style>
+            ul {
+                list-style: none; /* Usuwanie znaczników */
+            }
+            ul li span {
+                background: url(images/bullet.png) no-repeat 5px center; /* Znacznik wybrać obrazek */
+            }
+            ul li.current {
+                background: #F9F2E2;
+            }
+        </style>
+    </head>
+    <body></body>
+</html>

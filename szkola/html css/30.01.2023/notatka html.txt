@@ -1,0 +1,18 @@
+Znaczniki sparowane zaczynają się na < a kończą na >
+Niesparowane <br> <hr>
+<!DOCTYPE html> definiuje, że dokument jest zapisany w języku HTML
+<html>, na końcu dokumentu </html> - informacja dla przeglądarki, że pomiędzy znacznikami znajduje się kod HTML
+<head> </head> - nagłówek strony, informacje nagłówkowe
+<body> </body> - wszystko co widzimy w przeglądarce znajduje się tutaj
+<title> </title> - tytuł karty w przeglądarce 
+<link rel="stylesheet" href="styles.css"> - link do pliku
+<style> - definiujemy wygląd strony bez pliku css
+<html lang="pl-pl">
+<h1> do <h6> - informacje wyróżnione, h1 największy tekst, h6 najmniejszy
+<p> - paragraf
+<div> to element sekcji
+<span> to element liniowy, używany do wyróżniania części tekstu, w celu np pokolorowania go
+<p>My mother has <span style="color:blue">blue</span> eyes.</p> 
+<br> - nowa linijka
+<hr> - zmiana tematyki (linia pozioma ------------------------------)
+<b> </b> (pogrubienie fizyczne) <strong> </strong> (pogrubienie logiczne) - pogrubianie tekstu

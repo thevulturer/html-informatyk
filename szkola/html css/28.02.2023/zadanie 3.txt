@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kolor linii poziomej</title>
+        <style>
+            hr {
+                background-color: green;
+            }
+            q {
+                color: #cc11aa;
+                font-style: italic;
+            }
+            p {
+                color: hsl(50, 60%, 70%);
+            }
+            h3 {
+                color: #c1a;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Jaka jest dziś pogoda?</h3>
+        <hr>
+        <hr>
+        <p>Instytut Meteorologii i Gospodarki Wodnej z siedzibą w Warszawie, dalej <q>IMGW-PIB</q></p>
+    </body>
+</html>

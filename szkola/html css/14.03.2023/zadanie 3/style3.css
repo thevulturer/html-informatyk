@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 200px;
+    background-color: white;
+}
+
+table td {
+    padding: 10px;
+}
+
+.inside {
+    margin: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}

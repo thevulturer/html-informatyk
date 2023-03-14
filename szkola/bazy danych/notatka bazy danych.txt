@@ -1,0 +1,48 @@
+26.01.2023
+
+Encja:
+-reprezentuje zbiór obiektów opisany tymi samymi cechami (atrybutami, własnościami)
+-informacje o tych obiektach będą przechowywane w bazie danych
+-konkretny obiekt świata rzeczywistego jest reprezentowany jako wystąpienie encji (instancję encji)
+
+Jako przykład encji rozważmy następujący mikro-opis fragmentu pewnego
+świata rzeczywistego
+"Firma zatrudnia pracowników. Chcemy przechowywać informacje nt.
+danych personalnych pracowników (imię, nazwisko, adres i numer
+telefonu)."
+
+Na podstawie tego opisu można zbudować prosty model encji. Ponieważ
+chcemy przechowywać dane na temat pracowników, obiektem modelu
+będzie encja o nazwie Pracownik. Ponieważ wszyscy pracownicy firmy
+mają takie same cechy, więc encja będzie posiadała 4 atrybuty: imię,
+nazwisko, adres, nr_telefonu. Encja ta będzie reprezentowała wszystkich
+pracowników firy i aktualnie zatrudnionych i zatrudnianych w przyszłości.
+Wystąpieniami tej encji są konkretni pracownicy firmy, jak pokazano na
+slajdzie
+
+Atrybuty encji (1)
+-Identyfikator
+    -atrybut lub zbiór atrybutów jednoznacznie identyfikujący wystąpienie encji
+    -zbiór atrybutów + związki 
+    -związki
+-Identyﬁikatory naturalne:
+    -PESEL, NIP, nr dowodu, nr paszportu, nr rejestracyjny, ISBN
+-Identyfikatory sztuczne:
+    -numer pozycji katalogowej, identyﬁikator pracownika
+
+Modelowanie encji (2)
+Każda encja posiada:
+    -unikalną nazwę 
+    -zbiór cech (atrybutów)
+Encje wchodzą w związki z innymi encjami (wyjątkiem są encje reprezentujace dane stownikowe i konfiguracyjne)
+-Dowolna rzecz lub obiekt możą być reprezentowana tylko przez jedną encję
+-Nazwa encji powinna być rzeczownikiem w liczbie pojedynczej
+
+Zmiana modelu firmy wiąże się ze zmianą modelu danych. 
+Aktualizacja danych nie może doprowadzić do utraty danych.
+Polecenie ALTER modyfikuje tabelę.
+Zmiana modelu danych może wiązać się ze zmianą RDBMS (pl. SZBD).
+Modelowanie bazy danych (etapy):
+-koncepcji
+-logiczny
+-fizyczna
