@@ -1,0 +1,14 @@
+body {
+    background-color: skyblue;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+#right {
+    background-color: #B0BEC5;
+    padding: 5px;
+}
