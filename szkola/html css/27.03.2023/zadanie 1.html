@@ -11,7 +11,7 @@
     </header>
     <main>
         <div id="left">
-            <form>
+            <form method="post">
                 <h3>Imię:</h3>
                 <input type="text" name="imie">
                 <h3>Nazwisko:</h3>
@@ -20,6 +20,7 @@
                 <h3>Płeć:</h3>
                 <input type="radio" id="male" name="plec"> Mężczyzna
                 <input type="radio" id="female" name="plec"> Kobieta <br>
+                <input type="radio" id="washingmachine" name="plec"> Pralkozmywarka <br>
                 <h3>Wiek:</h3>
                 <select name="wiek">
                     <option>0-17</option>
@@ -28,23 +29,37 @@
                 </select> <br>
                 <h3>Uwagi:</h3>
                 <textarea cols="30" rows="10"></textarea> <br>
+                <h3>Wybierz przedział geja:</h3>
+                <form>
+                    <select>
+                        <optgroup label="ernesty">
+                            <option>12-14</option>
+                            <option>15-17</option>
+                            <option>18+</option>
+                        </optgroup>
+                        <optgroup label="błażeje">
+                            <option>12-14</option>
+                            <option>15-17</option>
+                            <option>18+</option>
+                        </optgroup>
+                    </select> <br>
+                    <h3>Wybierz poziom gejozy:</h3>
+                     <div id="gej">mało - POTĘŻNIE</div> <br>
+                    <input type="range" min="1" max="10" value="1"> <br> <br>
                 <input type="submit" value="Wyślij">
             </form>
         </div>
         <div id="right">
             <form>
-                <select>
-                    <optgroup label="dziewczeta">
-                        <option>12-14</option>
-                        <option>15-17</option>
-                        <option>18+</option>
-                    </optgroup>
-                    <optgroup label="chlopcy">
-                        <option>12-14</option>
-                        <option>15-17</option>
-                        <option>18+</option>
-                    </optgroup>
-                </select>
+                <h3>E-mail:</h3>
+                <input type="email" placeholder="Wpisz adres e-mail"> <input type="submit" value="Wyślij"> <br>
+                <h3>Szukaj:</h3>
+                <input type="search" placeholder="Pies się zesrał help"> <input type="submit" value="Wyślij"> <br>
+                <h3>Wybierz datę urodzenia:</h3>
+                <input type="date"> <br>
+                <h3>Wybierz kolor bo czemu nie:</h3>
+                <input type="color"> <br>
+                <input type="submit" value="Za iźi" style="float: right;">
             </form>
         </div>
     </main>

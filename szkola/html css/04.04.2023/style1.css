@@ -1,0 +1,28 @@
+body {
+    background-color: #B0BEC5;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+}
+
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    height: 300px;
+}
+
+footer {
+    clear: both;
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sigmar One', cursive;
+}

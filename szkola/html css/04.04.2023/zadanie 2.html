@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Szwaicariia</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Dane podstawowe</legend>
+        Twoje imię: <input type="text" placeholder="Imię"> <br>
+        Twoje nazwisko: <input type="text" placeholder="Nazwisko"> <br>
+        Twoje hasło: <input type="password" placeholder="Hasło"> <br>
+        Twój adres e-mail: <input type="text" placeholder="E-mail"> <br>
+        Twój telefon: <input type="text" placeholder="Numer telefonu"> <br>
+        Twoja witryna: <input type="text" placeholder="Witryna"> <br>
+    </fieldset>
+    
+    <fieldset> Twój ulubiony kolor:
+        <input type="radio" name="kolor"> Zielony
+        <input type="radio" name="kolor"> Czerwony
+        <input type="radio" name="kolor"> Żółty 
+        <br> Twoje ulubione jedzenie:
+        <input type="radio" name="jedzenie"> Zupa
+        <input type="radio" name="jedzenie"> Mięso
+        <input type="radio" name="jedzenie"> Ryby
+        <br> Co przynieść:
+        <input type="checkbox"> Zupa 
+        <input type="checkbox"> Mięso
+        <input type="checkbox"> Ryby 
+        <br> Subskrybuj wiadomości: 
+        <input type="checkbox"> 
+        <br> Twoja ulubiona wyszukiwarka:
+        <input type="text" list="zupa">
+        <datalist id="zupa">
+            <option>Google</option>
+            <option>Google Scholar</option>
+        </datalist> 
+        <br>
+        Plik: <input type="file"> <br>
+        Kopie: <input type="text"> <br>
+        Zakres: <input type="range"> <br>
+        Data: <input type="date"> <br>
+        Kolor: <input type="color"> <br>
+        Wiadomość: <textarea cols="20" rows="3"></textarea> <br>
+        Miasta: <select>
+            <optgroup label="Główne miasta Polski">
+                <option>Warszawa</option>
+                <option>Wrocław</option>
+            </optgroup>
+            <optgroup label="Główne miasta Szwajcarii">
+                <option>Bern</option>
+                <option>Lutern</option>
+                <option>Zurych</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    <input type="reset"> <input type="submit" value="Prześlij">
+</body>
+</html>
