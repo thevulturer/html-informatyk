@@ -1,0 +1,68 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lewy-gora {
+    float: left;
+    width: 75%;
+    background-color: seagreen;
+    color: white;
+    height: 260px;
+    font-size: 160%;
+    line-height: 150px;
+}
+
+#prawy-gora {
+    float: left;
+    width: 25%;
+    background-color: seagreen;
+    color: white;
+    height: 260px;
+    font-size: 160%;
+    text-align: right;
+    line-height: 150px;
+}
+
+#glowny {
+    clear: both;
+    background-color: mintcream;
+    padding: 80px;
+}
+
+#lewy-dol {
+    float: left;
+    background-color: seagreen;
+    color: white;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+}
+
+#prawy-dol {
+    float: left;
+    background-color: seagreen;
+    color: white;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+img {
+    box-shadow: 15px 15px 10px dimgray;
+}
+
+a {
+    text-decoration: none;
+    background-color: mintcream;
+    color: seagreen;
+    padding: 15px;
+    line-height: 70px;
+}
