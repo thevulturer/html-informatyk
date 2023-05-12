@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner_left, #banner_right {
+    float: left;
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 25%;
+    height: 80px;
+}
+
+#banner_center {
+    float: left;
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+}
+
+#main {
+    clear: both;
+    background-color: rgb(224, 255, 255);
+    padding: 40px;
+}
+
+#left, #right {
+    float: left;
+    background-color: rgb(70, 130, 180);
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+
+#footer {
+    clear: both;
+    background-color: rgb(224, 255, 255);
+}
+
+table {
+    border: 1px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid blue;
+}
+
+th {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}

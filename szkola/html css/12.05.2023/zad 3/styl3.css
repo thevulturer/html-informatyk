@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner_left, #banner_center, #banner_right, #footer_left, #footer_center, #footer_right {
+    float: left;
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+}
+
+#banner_left, #footer_left {
+    width: 55%;
+    font-size: 120%;
+}
+
+#banner_center, #footer_center {
+    width: 25%;
+}
+
+#banner_right, #footer_right {
+    width: 20%;
+    text-align: right;
+}
+
+#main {
+    clear: both;
+    background-color: snow;
+    padding: 70px;
+}
+
+a {
+    border: dotted 2px saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+
+ol {
+    list-style-type: lower-latin;
+}
